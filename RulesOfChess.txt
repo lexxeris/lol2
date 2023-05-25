@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Rules of Chess</title>
+    <style>
+        .bg
+        {
+            background-image: url(img/chessbg.jpg);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .text
+        {
+            color: aliceblue;
+            font-size: 300%;
+        }
+        p
+        {
+            color: aliceblue;
+            font-size: 120%;
+        }
+        .fixed-position
+        {
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding: 10px;
+        }
+        .fixed-position2
+        {
+            position: fixed;
+            top: 0px;
+            left: 110px;
+            padding: 10px;
+        }
+        u
+        {
+            text-decoration-line: underline;
+            color: red;
+            text-decoration-thickness: 3px;
+            text-underline-offset: 3px;
+        }
+        .button
+        {
+            background-color: black; /* Green */
+            border: none;
+            color: white;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        .button5 
+        {
+          background-color: grey;
+          color: black;
+          border: 2px solid black;
+        }
+
+        .button5:hover 
+        {
+          background-color: black;
+          color: white;
+        }
+    </style>
+</head>
+
+<body class="bg">
+    <a class="button button5 fixed-position2" href="AboutPage.html">About Page</a>
+    <a class="button button5 fixed-position" href="index.html">Home Page</a>
+    <center>
+       <u>
+        <h1 class="text" style="font-family: gill sans, sans-serif">
+            Basic Chess Rules For FREE!!!
+        </h1>
+        </u>
+    </center>
+    
+    <u>
+    <h1 style="color: aliceblue" style="font-family: gill sans, sans-serif">
+        The Chessboard
+    </h1>
+    </u>
+    
+    <p>
+        The game is played on a square board consisting of 64 alternating light and dark squares of equal size. It is positioned so that each player has a light-colored square in the bottom right corner.
+    </p>
+    
+    <u>
+    <h1 style="color: aliceblue" style="font-family: gill sans, sans-serif">
+        The Pieces
+    </h1>
+    </u>
+    
+    <p>
+        Each player begins with 16 pieces. They are as follows:<br>
+        <br>
+            King (1 piece): The most important piece. It can move one square in any direction. <br>
+            Queen (1 piece): The most powerful piece. It can move any number of squares in any direction. <br>
+            Rook (2 pieces): It can move any number of squares horizontally or vertically. <br>
+            Bishop (2 pieces): It can move any number of squares diagonally. <br>
+            Knight (2 pieces): It moves in an L-shape, consisting of two squares in one direction and then one square in a perpendicular direction. <br>
+            Pawn (8 pieces): They move forward one square, but capture diagonally. On their first move, they have the option to move forward two squares. <br>
+    </p>
+    
+    <u>
+    <h1 style="color: aliceblue" style="font-family: gill sans, sans-serif">
+        Objective
+    </h1>
+    </u>
+    
+    <p>
+        The objective is to checkmate your opponent's king. Checkmate occurs when the king is under attack ("in check") and cannot escape capture on the next move.
+    </p>
+    
+    <u>
+    <h1 style="color: aliceblue" style="font-family: gill sans, sans-serif">
+        Turn order
+    </h1>
+    </u>
+    
+    <p>
+        Players take turns moving their pieces, with White moving first. Each player is allowed one move per turn.
+    </p>
+    
+    <u>
+    <h1 style="color: aliceblue" style="font-family: gill sans, sans-serif">
+        Legal moves
+    </h1>
+    </u>
+    
+    <p>
+        Each piece has its own set of rules for movement. Generally, a piece can move to an unoccupied square, capture an opponent's piece by moving to its square, or capture an opponent's piece en passant (special pawn capture). However, pieces cannot move through other pieces, except for the knight, which can jump over them.
+    </p>
+    
+    <u>
+    <h1 style="color: aliceblue" style="font-family: gill sans, sans-serif">
+        Special moves
+    </h1>
+    </u>
+    
+    <h2 style="color: aliceblue" style="font-family: gill sans, sans-serif">
+        Castling
+    </h2>
+    
+    <p>
+        Once per game, a player can perform a castling move. It involves moving the king two squares towards a rook on the player's first rank, then moving the rook to the square the king crossed. This move is used for king's safety and cannot be performed if the king is in check or if the squares between the king and rook are occupied.
+    </p>
+    
+    <h2 style="color: aliceblue" style="font-family: gill sans, sans-serif">
+        En passant
+    </h2>
+    
+    <p>
+        When a pawn advances two squares from its starting position and lands beside an opponent's pawn, the opponent has the option to capture the pawn "en passant," as if the pawn had only moved one square forward. This capture must be made on the very next move.
+    </p>
+    
+    <u>
+    <h1 style="color: aliceblue" style="font-family: gill sans, sans-serif">
+        Promotion
+    </h1>
+    </u>
+    
+    <p>
+        When a pawn reaches the opposite side of the board, it can be promoted to any other piece (except a king). Usually, players choose to promote to a queen for its increased power, but other choices are possible.
+    </p>
+    
+    <u>
+    <h1 style="color: aliceblue" style="font-family: gill sans, sans-serif">
+        Check
+    </h1>
+    </u>
+    
+    <p>
+        When a player's king is under direct attack by an opponent's piece(s), the king is said to be in check. The player must make a move that removes the king from check. There are three ways to get out of check: move the king, block the check with another piece, or capture the checking piece.
+    </p>
+    
+    <u>
+    <h1 style="color: aliceblue" style="font-family: gill sans, sans-serif">
+        Stalemate and draw
+    </h1>
+    </u>
+    
+    <p>
+        If a player's king is not in check, but they have no legal moves, the game is a draw by stalemate. Other draw scenarios include perpetual check (repetitive checks with no progress) or when both players agree to a draw.
+    </p>
+    
+    <a class="button button5 fixed-position2" href="AboutPage.html">About Page</a>
+</body>
+</html>

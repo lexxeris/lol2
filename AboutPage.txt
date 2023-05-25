@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChessPro.com (About)</title>
+    <style>
+        .text
+        {
+            font-size: 350%;
+            color: aliceblue;
+        }
+        p
+        {
+            font-size: 150%;
+            padding-left: 350px;
+            padding-right: 350px;
+            color: aliceblue;
+        }
+        body
+        {
+            text-align: center;
+        }
+        .bg
+        {
+            background-image: url("img/chessbg.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .fixed-position
+        {
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding: 10px;
+        }
+        .fixed-position2
+        {
+            position: fixed;
+            top: 0px;
+            left: 110px;
+            padding: 10px;
+        }
+        u
+        {
+            text-decoration-line: underline;
+            color: red;
+            text-decoration-thickness: 3px;
+            text-underline-offset: 3px;
+        }
+        .button
+        {
+            background-color: black; /* Green */
+            border: none;
+            color: white;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        .button5 
+        {
+          background-color: grey;
+          color: black;
+          border: 2px solid black;
+        }
+
+        .button5:hover 
+        {
+          background-color: black;
+          color: white;
+        }
+    </style>
+</head>
+
+<body class="bg">
+    <a class="button button5 fixed-position2" href="AboutPage.html">About Page</a>
+    <a class="button button5 fixed-position" href="index.html">Home Page</a>
+    
+    <center>
+       <u>
+        <h class="text">About Page</h>
+       </u>
+    </center>   
+        
+    
+    <p>Introducing ChessPro: Your Ultimate Destination for Chess Enthusiasts<br>
+    <br>
+
+ChessPro, the revolutionary new website dedicated to all things chess, is here to redefine the way chess enthusiasts engage with their passion. Whether you're a seasoned player or just starting your journey in the world of chess, ChessPro offers a comprehensive platform designed to meet the needs of players of all levels.<br>
+<br>
+
+Unleashing the Power of Chess:<br>
+<br>
+At ChessPro, we believe that chess is more than just a game—it's an art, a science, and a community. Our website aims to bring together chess enthusiasts from around the world and provide them with an immersive experience like no other. Here's what you can expect from ChessPro:<br>
+<br>
+1. Interactive Chess Training: ChessPro offers a wide range of interactive training resources to help players improve their skills. From comprehensive tutorials for beginners to advanced strategies for seasoned players, our platform caters to all levels of expertise. Engage in interactive lessons, solve puzzles, and learn from world-class chess grandmasters to take your game to the next level.<br>
+<br>
+2. Play Against the Best: Challenge yourself by playing against skilled opponents from all corners of the globe. ChessPro provides a sophisticated matchmaking system that ensures fair and exciting games. Choose from different game modes, including classical, blitz, and bullet, and participate in tournaments to test your skills and climb the leaderboards.<br>
+<br>
+3. Analytical Tools and AI Assistance: ChessPro leverages cutting-edge technology to provide advanced analytical tools and AI-powered assistance. Analyze your games, receive real-time feedback, and get personalized recommendations for improvement. Whether you're a beginner trying to grasp fundamental concepts or an expert seeking to refine your strategies, ChessPro has you covered.<br>
+<br>
+4. Engaging Community Features: ChessPro brings the chess community together in a vibrant and interactive space. Connect with fellow players, join clubs, and participate in forums to discuss tactics, share insights, and engage in friendly debates. ChessPro also hosts live events, including lectures, exhibitions, and interviews with renowned players, allowing you to immerse yourself in the captivating world of chess.<br>
+<br>
+5. Extensive Database and Opening Explorer: ChessPro boasts a comprehensive database of millions of chess games, including historical matches and recent tournaments. Dive into the rich history of the game, explore different opening variations, and gain valuable insights from top-level play. Our Opening Explorer tool helps you analyze and navigate through various opening moves, enhancing your repertoire and strategic understanding.<br>
+<br>
+6. Mobile-Friendly Experience: ChessPro understands the importance of accessibility and convenience. Our website is optimized for mobile devices, allowing you to enjoy all the features and functionalities on your smartphone or tablet. Play games, learn new strategies, and connect with the chess community anytime, anywhere.<br>
+<br>
+Join the ChessPro Revolution:<br>
+<br>
+ChessPro is more than just a website—it's a community-driven platform that aims to empower chess enthusiasts worldwide. Whether you aspire to become a grandmaster, enjoy casual games with friends, or simply appreciate the beauty of the game, ChessPro provides the tools and resources to fuel your passion. Join us on ChessPro and embark on an exciting journey of growth, camaraderie, and endless chess possibilities.<br> </p>
+</body>
+</html>

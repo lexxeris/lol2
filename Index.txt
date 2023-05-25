@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChessPro.com (Home)</title>
+    <style>
+        .bg
+        {
+            background-image: url("img/chessbg.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .text
+        {
+            font-size: 350%;
+            color: aliceblue;
+        }
+        p
+        {
+            color: aliceblue;
+            font-size: 150%;
+        }
+        .p2
+        {
+            font-size: 120%;
+        }
+        .aboutP
+        {
+            color: darkgrey;
+            position: fixed;
+            right: 0;
+            top: 0;
+            padding: 5px;
+            font-size: 85%;
+        }
+        .fixed-position
+        {
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding: 10px;
+        }
+        .fixed-position2
+        {
+            position: fixed;
+            top: 0px;
+            left: 110px;
+            padding: 10px;
+        }
+        .button
+        {
+            background-color: black; /* Green */
+            border: none;
+            color: white;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        .button5 
+        {
+          background-color: grey;
+          color: black;
+          border: 2px solid black;
+        }
+
+        .button5:hover 
+        {
+          background-color: black;
+          color: white;
+        }
+        u
+        {
+           text-decoration-line: underline;
+            color: red;
+            text-decoration-thickness: 3px;
+            text-underline-offset: 3px; 
+        }
+    </style>
+</head>
+
+<body class="bg">
+        <a class="button button5 fixed-position2" href="AboutPage.html">About Page</a>
+        <a class="button button5 fixed-position" href="index.html">Home Page</a>
+           
+         <center>
+           <u>
+            <h1 class="text">Welcom to Website</h1>
+           </u>
+            <p class="p2">
+                Welcome to the one of the BEST online-chess website in the world!<br>
+                <br>
+                First thing you need to know about chess when you want to play them are RULES<br>
+                if you want here are some basics: <a href="RulesOfChess.html">Basic Rules</a><br>
+                <br>
+                Second thing chess is game for 2 players but WHAT IF
+                you dont have somebody to play with SO
+                We introduce you
+            </p>
+            
+            <h1 style="color: grey; border-top: 5px solid red; border-bottom: 5px solid red; font-size: 450%;">
+                BOTS
+            </h1>
+            
+            <p class="p2">
+                YES. Bots. Our team of programmers programmed a functional bot that can play<br>
+                chess. Maybe in future we can add much more and stronger bots. You can massage to us when<br>
+                you like thid idea.<br>
+                <br>
+            </p>
+            
+            <img src="img/chessimg" alt="" width="500">
+            
+            <p class="aboutP">Click "About Page" to know more about this website!</p>
+        </center>
+</body>
+</html>
